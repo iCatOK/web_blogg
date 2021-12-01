@@ -12,7 +12,7 @@ def register():
     go_app('register_page', new_window=False)
 
 
-# вход в систему
+# вход в систем
 def login():
     answer = validate_credentials(pin.username, pin.password)
 
